@@ -3,16 +3,16 @@
   <g font-family="Consolas, 'Courier New', monospace" font-size="14" xml:space="preserve">
     <text x="16" y="28" fill="#e6edf3"><tspan fill="#ffa657">skypxnr</tspan> ---------------------------------------------------------------------------------------------------------------------------</text>
 
-    <text x="16" y="50" fill="#ffa657">. OS:<tspan fill="#c9d1d9"> ..........................</tspan><tspan fill="#a5d6ff" x="270">Debian</tspan></text>
-    <text x="16" y="70" fill="#ffa657">. Uptime:<tspan fill="#c9d1d9"> ......................</tspan><tspan id="age_data" fill="#a5d6ff">0 years, 0 months, 0 days</tspan></text>
+    <text x="16" y="50" fill="#ffa657">. OS:<tspan fill="#c9d1d9"> ..........................</tspan><tspan fill="#a5d6ff" x="270">Debian, Android 14, Windows 10</tspan></text>
+    <text x="16" y="70" fill="#ffa657">. Uptime:<tspan fill="#c9d1d9"> ......................</tspan><tspan id="age_data" fill="#a5d6ff"> 0 years, 0 months, 0 days</tspan></text>
     <text x="16" y="90" fill="#ffa657">. Host:<tspan fill="#c9d1d9"> .........................</tspan><tspan fill="#a5d6ff" x="270">Central University of Kashmir</tspan></text>
-    <text x="16" y="110" fill="#ffa657">. IDE:<tspan fill="#c9d1d9"> ..........................</tspan><tspan fill="#a5d6ff" x="270">VSCodium</tspan></text>
+    <text x="16" y="110" fill="#ffa657">. IDE:<tspan fill="#c9d1d9"> ..........................</tspan><tspan fill="#a5d6ff" x="270">VSCodium, nano, vim</tspan></text>
 
     <text x="16" y="140" fill="#ffa657">. Languages.Programming:<tspan fill="#c9d1d9"> .....</tspan><tspan fill="#a5d6ff" x="270">Python, C</tspan></text>
-    <text x="16" y="160" fill="#ffa657">. Languages.Computer:<tspan fill="#c9d1d9"> ........</tspan><tspan fill="#a5d6ff" x="270">Framework</tspan></text>
+    <text x="16" y="160" fill="#ffa657">. Laptop:<tspan fill="#c9d1d9"> ..................</tspan><tspan fill="#a5d6ff" x="270">Framework</tspan></text>
     <text x="16" y="180" fill="#ffa657">. Languages.Real:<tspan fill="#c9d1d9"> ............</tspan><tspan fill="#a5d6ff" x="270">English</tspan></text>
 
-    <text x="16" y="210" fill="#ffa657">. Hobbies.Software:<tspan fill="#c9d1d9"> ..........</tspan><tspan fill="#a5d6ff" x="270">Bug Bounty, Reverse Engineering, OSes</tspan></text>
+    <text x="16" y="210" fill="#ffa657">. Hobbies.Software:<tspan fill="#c9d1d9"> ..........</tspan><tspan fill="#a5d6ff" x="270">Operating Systems, Emulation, CTFs</tspan></text>
     <text x="16" y="230" fill="#ffa657">. Hobbies.Hardware:<tspan fill="#c9d1d9"> ..........</tspan><tspan fill="#a5d6ff" x="270">Arduino, Raspberry Pi, ESP32s</tspan></text>
 
     <text x="16" y="260" fill="#e6edf3">- Contact ---------------------------------------------------------------------------------------------------------------------------</text>
