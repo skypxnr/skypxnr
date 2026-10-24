@@ -121,12 +121,11 @@ def commit_and_push():
     git('-c', f'user.name={GIT_USER_NAME}', '-c', f'user.email={GIT_USER_EMAIL}',
         'commit', '-m', f'Update stats {today}')
     
-    # Explicitly pull and rebase from origin main
-    git('pull', '--rebase', 'origin', 'main')  
-    
-    # Explicitly push to origin main
+    # Explicitly pull and rebase from origin main to avoid push rejections
+    git('pull', '--rebase', 'origin', 'main')
     git('push', 'origin', 'main')
     print('Pushed updated stats.')
+
 
 def main():
     age = age_string(BIRTHDAY)
