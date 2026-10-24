@@ -120,6 +120,7 @@ def commit_and_push():
     git('add', '--', *SVG_FILES)
     git('-c', f'user.name={GIT_USER_NAME}', '-c', f'user.email={GIT_USER_EMAIL}',
         'commit', '-m', f'Update stats {today}')
+    git('pull', '--rebase')
     git('push')
     print('Pushed updated stats.')
 
