@@ -120,10 +120,13 @@ def commit_and_push():
     git('add', '--', *SVG_FILES)
     git('-c', f'user.name={GIT_USER_NAME}', '-c', f'user.email={GIT_USER_EMAIL}',
         'commit', '-m', f'Update stats {today}')
-    git('pull', '--rebase')  # Get any commits made on GitHub since checkout
-    git('push')
+    
+    # Explicitly pull and rebase from origin main
+    git('pull', '--rebase', 'origin', 'main')  
+    
+    # Explicitly push to origin main
+    git('push', 'origin', 'main')
     print('Pushed updated stats.')
-
 
 def main():
     age = age_string(BIRTHDAY)
