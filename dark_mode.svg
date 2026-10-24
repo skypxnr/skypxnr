@@ -1,7 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="560" height="440" viewBox="0 0 560 440">
-  <rect width="560" height="440" rx="10" fill="#161b22"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="985" height="530" viewBox="0 0 985 530">
+  <rect width="985" height="530" rx="10" fill="#161b22"/>
   <g font-family="Consolas, 'Courier New', monospace" font-size="14" xml:space="preserve">
-    <text x="16" y="28" fill="#e6edf3"><tspan fill="#ffa657">skypxnr</tspan> ---------------------------------------------------</text>
+    <text x="16" y="28" fill="#e6edf3"><tspan fill="#ffa657">skypxnr</tspan> ---------------------------------------------------------------------------------------------------------------------------</text>
 
     <text x="16" y="50" fill="#ffa657">. OS:<tspan fill="#c9d1d9"> ..........................</tspan><tspan fill="#a5d6ff" x="270">Debian</tspan></text>
     <text x="16" y="70" fill="#ffa657">. Uptime:<tspan fill="#c9d1d9"> ......................</tspan><tspan id="age_data" fill="#a5d6ff">0 years, 0 months, 0 days</tspan></text>
@@ -15,12 +15,12 @@
     <text x="16" y="210" fill="#ffa657">. Hobbies.Software:<tspan fill="#c9d1d9"> ..........</tspan><tspan fill="#a5d6ff" x="270">Bug Bounty, Reverse Engineering, OSes</tspan></text>
     <text x="16" y="230" fill="#ffa657">. Hobbies.Hardware:<tspan fill="#c9d1d9"> ..........</tspan><tspan fill="#a5d6ff" x="270">Arduino, Raspberry Pi, ESP32s</tspan></text>
 
-    <text x="16" y="260" fill="#e6edf3">- Contact ---------------------------------------------------</text>
+    <text x="16" y="260" fill="#e6edf3">- Contact ---------------------------------------------------------------------------------------------------------------------------</text>
     <text x="16" y="280" fill="#ffa657">. Email.Personal:<tspan fill="#c9d1d9"> ...........</tspan><tspan fill="#a5d6ff" x="270">sheikhiyad60@gmail.com</tspan></text>
     <text x="16" y="300" fill="#ffa657">. LinkedIn:<tspan fill="#c9d1d9"> .................</tspan><tspan fill="#a5d6ff" x="270">linkedin.com/in/sheikhiyadksa</tspan></text>
     <text x="16" y="320" fill="#ffa657">. Discord:<tspan fill="#c9d1d9"> ..................</tspan><tspan fill="#a5d6ff" x="270">your.ed</tspan></text>
 
-    <text x="16" y="350" fill="#e6edf3">- GitHub Stats ----------------------------------------------</text>
+    <text x="16" y="350" fill="#e6edf3">- GitHub Stats ----------------------------------------------------------------------------------------------------------------------</text>
     <text x="16" y="370" fill="#ffa657">. Repos:<tspan id="repo_data_dots" fill="#c9d1d9"> ....</tspan><tspan id="repo_data" fill="#a5d6ff">0</tspan><tspan fill="#c9d1d9"> {Contributed: </tspan><tspan id="contrib_data" fill="#a5d6ff">0</tspan><tspan fill="#c9d1d9">} | </tspan><tspan fill="#ffa657">Stars:</tspan><tspan id="star_data_dots" fill="#c9d1d9"> ....</tspan><tspan id="star_data" fill="#a5d6ff">0</tspan></text>
     <text x="16" y="390" fill="#ffa657">. Commits:<tspan id="commit_data_dots" fill="#c9d1d9"> ..............</tspan><tspan id="commit_data" fill="#a5d6ff">0</tspan><tspan fill="#c9d1d9"> | </tspan><tspan fill="#ffa657">Followers:</tspan><tspan id="follower_data_dots" fill="#c9d1d9"> ......</tspan><tspan id="follower_data" fill="#a5d6ff">0</tspan></text>
     <text x="16" y="410" fill="#ffa657">. Lines of Code on GitHub:<tspan id="loc_data_dots" fill="#c9d1d9"> ...</tspan><tspan id="loc_data" fill="#a5d6ff">0</tspan><tspan fill="#c9d1d9"> ( </tspan><tspan id="loc_add" fill="#3fb950">0</tspan><tspan fill="#3fb950">++, </tspan><tspan id="loc_del" fill="#f85149">0</tspan><tspan fill="#f85149">--</tspan><tspan fill="#c9d1d9"> )</tspan></text>
