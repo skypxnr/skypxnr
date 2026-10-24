@@ -20,7 +20,9 @@ jobs:
 
       - run: pip install lxml python-dateutil requests
 
-      - run: python update_svg.py
+      - run: |
+          git pull --rebase
+          python update_svg.py
         env:
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
           USER_NAME: skypxnr
