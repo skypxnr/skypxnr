@@ -20,9 +20,6 @@ jobs:
         with:
           python-version: '3.12'
 
-      - run: pip install lxml python-dateutil requests
+      - run: pip install lxml python-dateutil
 
       - run: python update_svg.py
-        env:
-          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-          USER_NAME: skypxnr
