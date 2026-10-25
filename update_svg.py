@@ -13,7 +13,7 @@ import requests
 from dateutil import relativedelta
 from lxml import etree
 
-BIRTHDAY = datetime.datetime(2006, 6, 1)  # Day is unknown, so 1 June is used
+BIRTHDAY = datetime.datetime(2006, 6, 8)  # Day is unknown, so 1 June is used
 SVG_FILES = ['dark_mode.svg', 'light_mode.svg']
 USER_NAME = os.environ.get('USER_NAME', 'skypxnr')
 HEADERS = {'authorization': 'token ' + os.environ['ACCESS_TOKEN']}
@@ -54,7 +54,7 @@ def get_stats():
             followers { totalCount }
             owned: repositories(first: 100, ownerAffiliations: $owner) {
                 totalCount
-                edges { node { ... on Repository { stargazers { totalCount } } } }
+                edges { node { ... on Repository { stargazerCount } } }
             }
             contributed: repositories(ownerAffiliations: $all) { totalCount }
         }
@@ -62,7 +62,7 @@ def get_stats():
     user = gql(user_query, {'login': USER_NAME, 'owner': ['OWNER'],
                             'all': ['OWNER', 'COLLABORATOR', 'ORGANIZATION_MEMBER']})['user']
 
-    stars = sum(edge['node']['stargazers']['totalCount'] for edge in user['owned']['edges'])
+    stars = sum(edge['node']['stargazerCount'] for edge in user['owned']['edges'])
 
     # Commits: sum yearly contribution totals from account creation to now
     commit_query = '''
