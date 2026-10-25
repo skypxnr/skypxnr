@@ -1,10 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <svg xmlns="http://www.w3.org/2000/svg" width="985" height="350" viewBox="0 0 985 350">
-  <rect width="985" height="350" rx="10" fill="#161b22" />
-  <g font-family="Consolas, &#39;Courier New&#39;, monospace" font-size="14" xml:space="preserve">
+  <rect width="985" height="350" rx="10" fill="#161b22"/>
+  <g font-family="Consolas, 'Courier New', monospace" font-size="14" xml:space="preserve">
     <text x="16" y="28" fill="#e6edf3"><tspan fill="#ffa657">skypxnr</tspan> ---------------------------------------------------------------------------------------------------------------------------</text>
 
     <text x="16" y="50" fill="#ffa657">. OS:<tspan fill="#c9d1d9"> ..........................</tspan><tspan fill="#a5d6ff" x="270">Debian, Android 14, Windows 10</tspan></text>
-    <text x="16" y="70" fill="#ffa657">. Uptime:<tspan fill="#c9d1d9"> .......................</tspan><tspan id="age_data" fill="#a5d6ff" x="270">20 years, 4 months, 23 days</tspan></text>
+    <text x="16" y="70" fill="#ffa657">. Uptime:<tspan fill="#c9d1d9"> .......................</tspan><tspan id="age_data" fill="#a5d6ff" x="270">20 years, 4 months, 24 days</tspan></text>
     <text x="16" y="90" fill="#ffa657">. Host:<tspan fill="#c9d1d9"> .........................</tspan><tspan fill="#a5d6ff" x="270">Central University of Kashmir</tspan></text>
     <text x="16" y="110" fill="#ffa657">. IDE:<tspan fill="#c9d1d9"> ..........................</tspan><tspan fill="#a5d6ff" x="270">VSCodium, nano, vim</tspan></text>
 
